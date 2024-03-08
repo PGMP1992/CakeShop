@@ -30,7 +30,7 @@ h1 {
       background-color: white;
   }
 
-  img {
+  .imageowner {
     width: 40%;
     height: auto;
     padding:10px;
