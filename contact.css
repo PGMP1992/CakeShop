@@ -1,0 +1,25 @@
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    margin: 5%;
+  }
+
+   .top{
+      display: block;
+      margin-right: 30%;
+      margin-left: 30%;
+      align-items: center;
+      background-color: white;
+  }
+  
+  .bottom{
+    margin-right: 30%;
+    margin-left: 30%; 
+    align-items: center;
+  }
+
+  .img {
+    width:400px; 
+    height: 400px; 
+   
+  } 
