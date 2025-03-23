@@ -1,11 +1,21 @@
 div.gallery {
-  border: 1px solid white;
+  border: 1px solid rgb(245, 11, 11);
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 div.gallery:hover {
   border: 1px solid white;
-  background-color: bisque;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+  background-image: linear-gradient(to right, rgba(243, 232, 232, 0.918), rgba(255, 0, 0, 0));
+    img:hover {
+      width: 200px;
+      height: 200px;
+      transform: scale(0.90);
+      transition: all 0.3s ease;
+    }
 }
 
 div.gallery img {
@@ -13,14 +23,34 @@ div.gallery img {
   height: 200px;
 }
 
-div.desc {
-  padding: 5px;
-  text-align: center;
+/* div.gallery img:hover {
+  width: 200px;
+  height: 200px;
+  transform: scale(0.90);
+  transition: all 0.3s ease;
+} */
+
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-optical-sizing: auto;
+  text-align: left;
+  margin: 2%;
 }
 
 button {
-  margin-bottom: 5px;
+  margin: 5px;
+  color: white;
+  background-color: rgb(54, 119, 180);
+  border-color: rgb(54, 119, 180);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+  button:hover {
+    background-color: rgb(31, 88, 145);
+    border-color: rgb(31, 88, 145);
+  }
 
 div {
   text-align: center;
@@ -33,10 +63,19 @@ div {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
+.name {
+  font-weight: bold;
+  color:rgb(83, 182, 53); 
+}
+
+.price {
+  font-weight:bold;
+  color:rgb(182, 53, 81); 
+}
+
+/* @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
@@ -47,7 +86,7 @@ div {
   .responsive {
     width: 100%;
   }
-}
+} */
 
 .clearfix:after {
   content: "";
