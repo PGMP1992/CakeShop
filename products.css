@@ -10,10 +10,9 @@ div.gallery:hover {
   transform: scale(1.03);
   transition: all 0.3s ease;
   background-image: linear-gradient(to right, rgba(243, 232, 232, 0.918), rgba(255, 0, 0, 0));
-    img:hover {
-      width: 200px;
-      height: 200px;
-      transform: scale(0.90);
+    
+    img {
+      transform: scale(1.05);
       transition: all 0.3s ease;
     }
 }
@@ -31,7 +30,6 @@ div.gallery img {
 } */
 
 h1 {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-optical-sizing: auto;
   text-align: left;
   margin: 2%;

@@ -11,7 +11,7 @@
     margin: auto;    
   }
   
-  .container{
+  .content{
     margin:10%; 
   }
 
@@ -37,6 +37,7 @@
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
+    background-color: rgb(243, 238, 238);
   }
   
   /* Style the topnav links */
@@ -47,6 +48,7 @@
     text-align: center;
     padding: 14px 16px;
     cursor: pointer;
+    
   }
   
   /* Change color on hover */
@@ -74,6 +76,8 @@
 
   /* Style the footer */
   footer {
+    overflow: hidden;
+    background-color: rgb(243, 238, 238);
     text-align: left;
     position: fixed;
     bottom: 0;
@@ -82,14 +86,9 @@
     z-index:auto;
   } 
  
-  /* Style the top navigation bar */
-.bottomnav {
-    overflow: hidden;
-  }
-  
   /* Style the topnav links */
-.bottomnav a {
+footer a {
     float: left;
     display: block;
-    padding: 16px;
+    padding: 10px;
 } 
